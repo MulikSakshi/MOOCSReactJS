@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Sakshi Mulik</h1><br>
+        <nav>
+            <ul>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bio Section -->
+    <section id="bio">
+        <h2> A Little Bit About Me</h2>
+        <div class="bio-container">
+            <img src="picture.jpg" alt="My Profile">
+            <p>Hello! I'm Sakshi Mulik, Welcome to my personal page! I am Studying in Y.M.I.M College ,Karad. A Front end web developer with a passion for creating beautiful and functional websites. Passionate about AI and Machine Learning.  Here's more about me! </p>
+        </div>
+    </section>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Learning New programming Languages</li>
+            <li>Traveling</li>
+            <li>Reading</li>
+        </ul>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p id="form-status"></p>
+        </form>
+    </section>
+
+    <script src="Profile.css"></script>
+</body>
+</html>
