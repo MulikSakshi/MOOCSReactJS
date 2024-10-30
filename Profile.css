@@ -1,0 +1,119 @@
+/* Basic Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0 0 0;
+    background-color: #94949f;
+}
+
+/* Header */
+header {
+    background-color: #1c1e11;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #afe6f0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Bio Section */
+#bio {
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-container img {
+    border-radius: 30%;
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+#bio p {
+    max-width: 600px;
+}
+
+/* Hobbies Section */
+#hobbies {
+    padding: 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hobbies ul li {
+    margin: 10px 0;
+}
+
+/* Contact Form */
+#contact {
+    padding: 20px;
+    background-color:azure;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-color: black;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
